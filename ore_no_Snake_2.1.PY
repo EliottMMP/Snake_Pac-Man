@@ -139,6 +139,8 @@ def computeNextFrame(numFrame,coordonnee, objet):
             game_over = True
         elif coordonnee[0][0] == objet5[0][0] and coordonnee[0][1] == objet5[0][1] :
             game_over = True
+        elif coordonnee[0][0] == objet[0][0] and coordonnee[0][1] == objet[0][1] :
+         play3
             
     for n in range(1,len(coordonnee)): # L'indice 0 est exclu, c'est la tête
         if coordonnee[0][0] == coordonnee [n][0] and coordonnee[0][1] == coordonnee [n][1]:
@@ -161,7 +163,10 @@ def computeNextFrame(numFrame,coordonnee, objet):
 if __name__ == "__main__":
     game_over = False
     can = Canvas(tk, width=500, height=500, bg='black')
-
+    if game_over = True:
+        play2
+    
+   
     can.pack()
     
     direction = 'up' 

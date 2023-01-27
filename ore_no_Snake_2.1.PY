@@ -29,7 +29,7 @@ noeud1 = ImageTk.PhotoImage(im_noeud1)
 pomme = Image.open("bonus2.png") 
 pomme = ImageTk.PhotoImage(pomme)
 
-im_fantome = Image.open("fantome.png")
+im_fantome = Image.open("fantome1.png")
 fantome = ImageTk.PhotoImage(im_fantome)
 
 im_fantome2 = Image.open("fantome2.png")

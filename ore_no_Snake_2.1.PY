@@ -26,7 +26,7 @@ teteW = ImageTk.PhotoImage(im_teteW)
 im_noeud1 = Image.open("bonus.png")
 noeud1 = ImageTk.PhotoImage(im_noeud1)
 
-pomme = Image.open("bonus2.png") 
+pomme = Image.open("bonus2-20230127-114724.piskel") 
 pomme = ImageTk.PhotoImage(pomme)
 
 im_fantome = Image.open("fantome.png")

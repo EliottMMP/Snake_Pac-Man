@@ -150,7 +150,7 @@ def computeNextFrame(numFrame,coordonnee, objet):
         #Fin de partie
         """play2"""
         can.create_text(250,250,text = "GAME OVER", fill='red', font=("Arial",35,"bold"))
-        can.create_text(250,300,text = "wanna try again? press -Space-", fill='red', font=("Arial",15,"bold"))
+       """ can.create_text(250,300,text = "wanna try again? press -Space-", fill='red', font=("Arial",15,"bold"))"""
         #si le joueur presse espace quand Game_over = True il relance le jeu
         """if :
             game_over == False""" 
